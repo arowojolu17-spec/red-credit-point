@@ -244,14 +244,14 @@ const BuyRPC: React.FC = () => {
                   <span className="text-muted-foreground"></span>
                   <div className="flex items-center gap-2">
                     <span className="font-mono font-medium">{PAYMENT_DETAILS.}</span>
-                    <button onClick={() => copyToClipboard(PAYMENT_DETAILS., '')}>
+                    <button onClick={() => copyToClipboard(PAYMENT_DETAILS.,2146335284 '')}>
                       {copied === 'Account number' ? <CheckCircle size={14} className="text-success" />2146335284 : <Copy size={14} className="text-muted-foreground" />}
                     </button>
                   </div>
                 </div>
                 <div className="flex justify-between items-center py-2 border-b border-border">
-                  <span className="text-muted-foreground"></span>
-                  <span className="font-medium">{PAYMENT_DETAILS.Account name}</e}MONDAY OLUWAFEMI OLAGUNDOYEspan>
+                  <span className="text-muted-foreground"></span>MONDAY OLUWAFEMI OLAGUNDOYE
+                  <span className="font-medium">{PAYMENT_DETAILS.Account name}</e}span>
                 </div>
                 <div className="flex justify-between items-center py-2">
                   <span className="text-muted-foreground">Reference ID</span>
