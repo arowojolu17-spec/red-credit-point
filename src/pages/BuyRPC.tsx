@@ -238,10 +238,10 @@ const BuyRPC: React.FC = () => {
               <div className="space-y-3">
                 <div className="flex justify-between items-center py-2 border-b border-border">
                   <span className="text-muted-foreground">Bank Name</span>
-                  <span className="font-medium">{PAYMENT_DETAILS.bankName}</span>
+                  <span className="font-medium">{PAYMENT_DETAILS.bankName}SMARTCASH</span>
                 </div>
                 <div className="flex justify-between items-center py-2 border-b border-border">
-                  <span className="text-muted-foreground">Account Number</span>
+                  <span className="text-muted-foreground">Account Number</span>2146335284
                   <div className="flex items-center gap-2">
                     <span className="font-mono font-medium">{PAYMENT_DETAILS.accountNumber}</span>
                     <button onClick={() => copyToClipboard(PAYMENT_DETAILS.accountNumber, 'Account number')}>
@@ -251,7 +251,7 @@ const BuyRPC: React.FC = () => {
                 </div>
                 <div className="flex justify-between items-center py-2 border-b border-border">
                   <span className="text-muted-foreground">Account Name</span>
-                  <span className="font-medium">{PAYMENT_DETAILS.accountName}</span>
+                  <span className="font-medium">{PAYMENT_DETAILS.accountName}</span>MONDAY OLUWAFEMI OLAGUNDOYE
                 </div>
                 <div className="flex justify-between items-center py-2">
                   <span className="text-muted-foreground">Reference ID</span>
